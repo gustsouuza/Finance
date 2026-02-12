@@ -1,59 +1,66 @@
-# 💰 Finance – Sistema de Controle Financeiro
+# Finance
 
-Aplicação web desenvolvida com o objetivo de auxiliar no controle financeiro pessoal, permitindo o registro de receitas e despesas de forma simples, organizada e intuitiva.
-
-O projeto foi desenvolvido com foco em boas práticas de desenvolvimento front-end, componentização e organização de código, sendo parte do meu aprendizado prático em desenvolvimento web.
+Sistema web de controle financeiro pessoal desenvolvido em React, com foco em organização de código, componentização e aplicação de boas práticas no desenvolvimento front-end.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Descrição
+
+O **Finance** é uma aplicação voltada ao gerenciamento básico de finanças pessoais, permitindo o registro de receitas e despesas e o acompanhamento do saldo de forma clara e objetiva.
+
+O projeto foi desenvolvido com o objetivo de consolidar conhecimentos em desenvolvimento de aplicações front-end modernas, priorizando legibilidade, separação de responsabilidades e manutenibilidade do código.
+
+---
+
+## Stack Tecnológica
 
 - React.js
 - JavaScript (ES6+)
 - HTML5
 - CSS3
-- Git e GitHub
+- Git
 
 ---
 
-## 📌 Funcionalidades
+## Principais Funcionalidades
 
-- Cadastro de receitas
-- Cadastro de despesas
-- Cálculo automático do saldo
-- Listagem dinâmica das movimentações financeiras
-- Interface simples e intuitiva
-- Componentização para melhor organização do código
+- Registro de entradas e saídas financeiras
+- Cálculo automático de saldo
+- Renderização dinâmica de dados
+- Interface baseada em componentes reutilizáveis
+- Estrutura de código modularizada
 
 ---
 
-## 🧠 Conceitos Aplicados
+## Decisões Técnicas
+
+- Utilização de **componentização** para facilitar reutilização e manutenção
+- Separação de responsabilidades entre componentes e lógica
+- Organização de pastas visando escalabilidade
+- Uso de controle de versão para rastreabilidade de alterações
+
+---
+
+## Arquitetura e Conceitos
 
 - Componentização com React
 - Gerenciamento de estado
-- Organização de pastas
-- Boas práticas de código
-- Versionamento com Git e GitHub
+- Separação de responsabilidades
+- Boas práticas de organização de código
+- Versionamento com Git
 
 ---
 
-## 🛠️ Como Executar o Projeto
+## Execução do Projeto
 
-### Pré-requisitos
-- Node.js instalado
+### Requisitos
+- Node.js
 - NPM ou Yarn
 
-### Passos
+### Passos para execução
 
 ```bash
-# Clonar o repositório
 git clone https://github.com/gustsouuza/Finance.git
-
-# Acessar a pasta do projeto
 cd Finance
-
-# Instalar as dependências
 npm install
-
-# Executar o projeto
 npm start
